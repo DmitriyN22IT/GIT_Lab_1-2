@@ -1,4 +1,9 @@
-int mult(int a, int b)
+int func(int a, int b)
 {
-	return a*b;
+	int res=0;
+	for (int i = 1; i<=b; i++)
+	{
+		res+=a;
+	}
+	return res;
 }
